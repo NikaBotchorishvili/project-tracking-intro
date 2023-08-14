@@ -7,7 +7,7 @@ export default {
 			// Primary
 
 			red: "hsl(0, 100%, 68%)",
-
+			white: "#ffffff",
 			// Neutral
 
 			veryDarkBlue: "hsl(230, 29%, 20%)",
