@@ -1,6 +1,6 @@
 function Hero() {
 	return (
-		<main className="flex md:flex-row flex-col-reverse mt-24 md:mt-44 w-[80vw] gap-y-20 justify-between mx-auto items-center">
+		<main className="flex md:flex-row flex-col-reverse mt-24 md:mt-44 w-[80vw] gap-y-20 justify-between mx-auto items-center mb-10">
 			<section className="flex flex-col justify-start gap-y-6">
 				<h3 className=" flex gap-x-2 items-center">
 					<mark className="text-xl bg-veryDarkBlue text-lightGrayishBlue p-1 rounded-lg font-bold font-barlowCondensed">
