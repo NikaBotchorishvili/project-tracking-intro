@@ -1,7 +1,7 @@
 function Hero() {
 	return (
-		<main className="flex md:flex-row flex-col-reverse mt-24 md:mt-44 w-[80vw] gap-y-20 justify-between mx-auto items-center mb-10">
-			<section className="flex flex-col justify-start gap-y-6">
+		<section className="flex md:flex-row flex-col-reverse mt-24 md:mt-44 w-[80vw] gap-y-20 justify-between mx-auto items-center mb-10">
+			<div className="flex flex-col justify-start gap-y-6">
 				<h3 className=" flex gap-x-2 items-center">
 					<mark className="text-xl bg-veryDarkBlue text-lightGrayishBlue p-1 rounded-lg font-bold font-barlowCondensed">
 						NEW
@@ -25,15 +25,15 @@ function Hero() {
 						TO SEE A PREVIEW
 					</small>
 				</div>
-			</section>
-			<section className="relative -right-1/4 sm:-right-1/3">
+			</div>
+			<div className="relative -right-1/4 sm:-right-1/3">
 				<img
 					src="illustration-devices.svg"
 					className="h-[250px] md:h-[300px] md:w-max "
 					alt="illustration image"
 				/>
-			</section>
-		</main>
+			</div>
+		</section>
 	);
 }
 
